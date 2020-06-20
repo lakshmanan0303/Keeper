@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+  padding: 0 16px;
+}
+
+.heading {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.note-section {
+  background-color: white;
+  width: 240px;
+  padding: 10px;
+  margin: 16px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+}
+
+.note-title {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note-content {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.copyrights {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  height: 2.5rem;
+  color: #ccc;
+}
